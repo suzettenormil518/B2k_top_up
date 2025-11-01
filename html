@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>B2K TOP UP – Recharge Free Fire</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header class="topbar">
+  <div class="container flex">
+    <div class="logo">B2K TOP UP</div>
+    <a href="https://wa.me/50942173432" class="btn wa">WhatsApp</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Recharge Free Fire en 3 clics</h1>
+    <p>Prix CozyTopUp – Paiement NatCash / MonCash – Validation rapide</p>
+    <a href="#packs" class="btn primary">Voir les packs</a>
+  </div>
+</section>
+
+<section id="packs" class="packs">
+  <div class="container">
+    <h2>Choisis ton pack</h2>
+    <div class="grid">
+      <div class="card"><div class="diamonds">100 <span>+10 bonus</span></div><div class="price">160 GDS</div><button data-pack="100+10 (160 GDS)">Commander</button></div>
+      <div class="card"><div class="diamonds">310 <span>+31 bonus</span></div><div class="price">496 GDS</div><button data-pack="310+31 (496 GDS)">Commander</button></div>
+      <div class="card"><div class="diamonds">520 <span>+52 bonus</span></div><div class="price">832 GDS</div><button data-pack="520+52 (832 GDS)">Commander</button></div>
+      <div class="card"><div class="diamonds">1 060 <span>+106 bonus</span></div><div class="price">1 696 GDS</div><button data-pack="1060+106 (1696 GDS)">Commander</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="formsec">
+  <div class="container">
+    <h2>Finalise ta commande</h2>
+    <form id="orderForm" action="https://formsubmit.co/b2ktopup@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_subject" value="Nouvelle commande B2K TOP UP">
+      <input type="hidden" name="_autoresponse" value="Merci ! Votre commande est en cours de vérification.">
+      <input type="hidden" name="_next" value="https://wa.me/50942173432?text=Bonjour,%20j'ai%20envoyé%20mon%20paiement.">
+      <label>ID Free Fire</label><input type="number" name="id_ff" required placeholder="Ex: 123456789">
+      <label>Pseudo Free Fire</label><input type="text" name="pseudo" required placeholder="Ex: B2KPlayer">
+      <label>Pack choisi</label><input type="text" name="pack" id="packInput" readonly required>
+      <label>Nom complet du payeur</label><input type="text" name="nom" required>
+      <label>Numéro de transaction NatCash / MonCash</label><input type="text" name="trans" required placeholder="Ex: 0123456789">
+      <label>Capture d’écran du paiement</label><input type="file" name="proof" accept="image/*" required>
+      <button type="submit" class="btn primary full">Envoyer la commande</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>Paiement : NatCash <strong>+509 4107 4774</strong> | MonCash <strong>+509 4217 3432</strong></p>
+    <p>Support WhatsApp : <a href="https://wa.me/50942173432">+509 4217 3432</a></p>
+    <small>© 2025 B2K TOP UP – validation manuelle par admin</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+        </html>
