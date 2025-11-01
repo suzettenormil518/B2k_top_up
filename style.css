@@ -1,0 +1,26 @@
+:root{--bg:#0f0f0f;--card:#ffffff;--primary:#8c52ff;--text:#111;font-family:system-ui,Arial; margin:0;background:var(--bg)}
+*{box-sizing:border-box;margin:0}
+body{color:#fff;line-height:1.5}
+.container{width:90%;max-width:1100px;margin:auto}
+.flex{display:flex;justify-content:space-between;align-items:center}
+.btn{padding:.75rem 1.5rem;border-radius:30px;text-decoration:none;font-weight:700;display:inline-block}
+.btn.primary{background:var(--primary);color:#fff}
+.btn.wa{background:#25d366;color:#fff}
+.topbar{padding:1rem 0;background:#000}
+.hero{padding:4rem 0;text-align:center}
+.hero h1{font-size:2.5rem;margin-bottom:.5rem}
+.packs{padding:3rem 0;background:#f5f5f5;color:var(--text)}
+.packs h2{text-align:center;margin-bottom:2rem}
+.grid{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border-radius:12px;padding:2rem;text-align:center;box-shadow:0 5px 20px rgba(0,0,0,.08)}
+.diamonds{font-size:2rem;font-weight:700;color:var(--primary)}
+.diamonds span{font-size:1rem;color:#666}
+.price{font-size:1.4rem;margin:.8rem 0}
+.card button{width:100%;border:none;padding:.8rem;border-radius:30px;background:var(--primary);color:#fff;font-size:1rem;cursor:pointer}
+.formsec{padding:3rem 0;background:#fff;color:var(--text)}
+form{display:grid;gap:1rem;max-width:500px;margin:auto}
+input,select,button{padding:.9rem;border:1px solid #ccc;border-radius:12px;font-size:1rem}
+button{cursor:pointer}
+.full{width:100%}
+footer{background:#000;text-align:center;padding:1.5rem 0;font-size:.9rem}
+footer a{color:var(--primary)}
